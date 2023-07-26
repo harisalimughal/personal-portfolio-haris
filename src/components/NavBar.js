@@ -52,10 +52,10 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/harisalimughal/" target="_blank"><img src={navIcon1} alt="" /></a>
-                <a href="https://github.com/harisalimughal" target="_blank"><img src={github} alt="" /></a>
-                <a href="https://www.facebook.com/profile.php?id=100008819046672" target="_blank"><img src={navIcon2} alt="" /></a>
-                <a href="https://www.instagram.com/haris_ali_mughal/" target="_blank"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.linkedin.com/in/harisalimughal/" ><img src={navIcon1} alt="" /></a>
+                <a href="https://github.com/harisalimughal"><img src={github} alt="" /></a>
+                <a href="https://www.facebook.com/profile.php?id=100008819046672"><img src={navIcon2} alt="" /></a>
+                <a href="https://www.instagram.com/haris_ali_mughal/" ><img src={navIcon3} alt="" /></a>
                 
               </div>
               <HashLink to='#connect'>

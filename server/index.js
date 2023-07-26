@@ -1,4 +1,4 @@
-const path = require('path');
+
 const express = require('express');
 // const router = express.Router();
 const cors = require('cors');
@@ -12,5 +12,5 @@ app.get("/api", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log('Server is online on port: ${PORT}')
+  console.log('Server is online on port')
 })
