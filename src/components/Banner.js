@@ -61,7 +61,17 @@ export const Banner = () => {
 
                 <h1>{`Hi! I'm Haris Ali Mughal-`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I am a web developer & designer. I can put your imagination into technology. I will be your creative web development partner</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  
+                  <button onClick={(event) => { 
+  console.log('#connect');
+  window.location.hash = 'connect';
+  event.preventDefault(); // Prevent form submission
+}}>
+  Let’s Connect <ArrowRightCircle size={25} />
+</button>
+
+
+
               </div>}
             </TrackVisibility>
           </Col>
