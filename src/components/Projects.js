@@ -32,7 +32,7 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: screenerAppimg,
+      imgUrl: projImg3,
     },
     {
       title: "Business Startup",
