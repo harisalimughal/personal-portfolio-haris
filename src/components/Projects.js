@@ -1,8 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
+import textEditorimg from "../assets/img/TextEditor.png";
+import ChatAppimg from "../assets/img/ChatApp.png";
 import projImg3 from "../assets/img/project-img3.png";
+import screenerAppimg from "../assets/img/screenerApp.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -13,29 +14,30 @@ export const Projects = () => {
     {
       title: "Haris' Text Editor",
       description: "I developed this project during my internship at CodeClause. It is made of React.js",
-      imgUrl: projImg1,
+      imgUrl: textEditorimg,
       link: "https://haristexteditor.netlify.app/"
       
     },
     {
       title: "HarisChatApp",
       description: "I develop this project during my internship at CodeClause. Made of websockets, express.js",
-      imgUrl: projImg2,
+      imgUrl: ChatAppimg,
+    },
+    {
+      title: "Screener App",
+      description: "I convert figma file to this app using html and css during my internship ",
+      imgUrl: screenerAppimg,
+      link: "https://6dm6vf-5000.csb.app/"
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: screenerAppimg,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
     },
     {
       title: "Business Startup",
@@ -49,12 +51,7 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: projImg3,
     },
     {
       title: "Business Startup",
@@ -64,12 +61,17 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: projImg3,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: projImg3,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: projImg3,
     },
     {
       title: "Business Startup",
