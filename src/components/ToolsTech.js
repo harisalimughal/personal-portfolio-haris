@@ -19,9 +19,11 @@ export const Newsletter = ({ status, message, onValidated }) => {
         <div className="newsletter-bx wow slideInUp">
           <Row>
             {
+              <div>
             <h2>Tools & Techs</h2>
-            
-            
+            <br></br>
+            <p>coming soon...</p>
+            </div>
             
             
             
