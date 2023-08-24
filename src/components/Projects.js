@@ -22,6 +22,7 @@ export const Projects = () => {
       title: "HarisChatApp",
       description: "I develop this project during my internship at CodeClause. Made of websockets, express.js",
       imgUrl: ChatAppimg,
+      link: "https://harischatapp.netlify.app/"
     },
     {
       title: "Screener App",
