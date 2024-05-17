@@ -55,7 +55,7 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/harisalimughal/" ><img src={navIcon1} alt="" /></a>
                 <a href="https://github.com/harisalimughal"><img src={github} alt="" /></a>
                 <a href="https://www.facebook.com/profile.php?id=100008819046672"><img src={navIcon2} alt="" /></a>
-                <a href="https://www.instagram.com/haris_ali_mughal/" ><img src={navIcon3} alt="" /></a>
+                <a href="https://www.instagram.com/haris.ali.mughal/" ><img src={navIcon3} alt="" /></a>
                 
               </div>
               <HashLink to='#connect'>
