@@ -21,7 +21,7 @@ export const Footer = () => {
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/harisalimughal/"><img src={navIcon1} alt="Icon" /></a>
               <a href="https://www.facebook.com/profile.php?id=100008819046672"><img src={navIcon2} alt="Icon" /></a>
-              <a href="https://instagram.com/haris_ali_mughal"><img src={navIcon3} alt="Icon" /></a>
+              <a href="https://instagram.com/haris.ali.mughal"><img src={navIcon3} alt="Icon" /></a>
             </div>
             <p>Developed by <span style={nameStyle}>Haris Ali</span></p>
           </Col>
