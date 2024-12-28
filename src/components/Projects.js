@@ -5,6 +5,11 @@ import ChatAppimg from "../assets/img/ChatApp.png";
 import projImg3 from "../assets/img/project-img3.png";
 import screenerAppimg from "../assets/img/screenerApp.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import Munch from "../assets/img/Munch.png";
+import FastMart from "../assets/img/FastMart.png";
+import NewsPortal from "../assets/img/NewsPortal.png";
+
+
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -12,38 +17,46 @@ export const Projects = () => {
 
   const projects1 = [
     {
-      title: "Haris' Text Editor",
-      description: "I developed this project during my internship at CodeClause. It is made of React.js",
-      imgUrl: textEditorimg,
-      link: "https://haristexteditor.netlify.app/"
-      
+      title: "MUNCH",
+      description:
+        "This is my web prog semester project. It is a full stack project",
+      imgUrl: Munch,
+      link: "https://github.com/harisalimughal/Munch",
     },
     {
       title: "HarisChatApp",
-      description: "I develop this project during my internship at CodeClause. Made of websockets, express.js",
+      description:
+        "I develop this project during my internship at CodeClause. Made of websockets, express.js",
       imgUrl: ChatAppimg,
-      link: "https://harischatapp.netlify.app/"
+      link: "https://harischatapp.netlify.app/",
+    },
+    {
+      title: "FastMart",
+      description:
+        "This is my personal project a product selling site designing for my university ",
+      imgUrl: FastMart,
+      link: "https://github.com/harisalimughal/FastMart",
+    },
+    {
+      title: "NewsPortal",
+      description:
+        "I developed this project during my internship at CodeClause.",
+      imgUrl: NewsPortal,
+      link: "https://github.com/harisalimughal/CodeClauseInternship_NewsPortal",
     },
     {
       title: "Screener App",
-      description: "I convert figma file to this app using html and css during my internship ",
+      description:
+        "I convert figma file to this app using html and css during my internship ",
       imgUrl: screenerAppimg,
-      link: "https://6dm6vf-5000.csb.app/"
+      link: "https://6dm6vf-5000.csb.app/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Haris' Text Editor",
+      description:
+        "I developed this project during my internship at CodeClause.",
+      imgUrl: textEditorimg,
+      link: "https://haristexteditor.netlify.app/",
     },
   ];
 
@@ -133,7 +146,7 @@ export const Projects = () => {
                         }
                       </Row>                    </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Coming Soon ...</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
