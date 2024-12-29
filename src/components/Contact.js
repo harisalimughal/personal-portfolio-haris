@@ -62,26 +62,11 @@ export const Contact = () => {
               <br></br>
               github:    <a href="https://github.com/harisalimughal">www.github.com/harisaliughal</a>
               <br></br>
-              .
-              <br></br>
               <br></br>
               phone:  <a href="+923058884771">+923058884771</a>
               <br></br>
               <br></br>
-              .
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              .
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              .
-              <br></br>
-              <br></br>
-              .
+
             </p>
           </Col>
           <Col size={12} md={6}>
