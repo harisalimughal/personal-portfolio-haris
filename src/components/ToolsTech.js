@@ -1,5 +1,12 @@
 import { useState, useEffect } from "react";
 import { Col, Row, } from "react-bootstrap";
+import MongoDB from "../assets/img/mongodb.svg";
+import express from "../assets/img/express.svg";
+import react from "../assets/img/react.svg";
+import node from "../assets/img/node.svg";
+import github from "../assets/img/github.svg";
+import bootstrap from "../assets/img/bootstrap.svg";
+
 
 export const Newsletter = ({ status, message, onValidated }) => {
   const [, setEmail] = useState('');
@@ -15,49 +22,30 @@ export const Newsletter = ({ status, message, onValidated }) => {
   }
 
   return (
-      <Col lg={12}>
-        <div className="newsletter-bx wow slideInUp">
-          <Row>
-            {
-              <div>
-            <h2>Tools & Techs</h2>
-            <br></br>
-            <p>coming soon...</p>
+    <Col lg={12}>
+      <div className="newsletter-bx wow slideInUp">
+        <Row>
+          {
+            <div>
+              <h2>Tools & Techs</h2>
+              <br></br>
+              <p>
+                <img src={MongoDB} alt="MongoDB Icon" className="icon-style" />
+                <img src={react} alt="MongoDB Icon" className="icon-style" />
+                <img src={express} alt="MongoDB Icon" className="icon-style" />
+                <img src={node} alt="MongoDB Icon" className="icon-style" />
+                <img src={github} alt="MongoDB Icon" className="icon-style" />
+                <img
+                  src={bootstrap}
+                  alt="MongoDB Icon"
+                  className="icon-style"
+                />
+                <p>more coming soon ...</p>
+              </p>
             </div>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            /* <Col lg={12} md={6} xl={5}>
-              <h3>Subscribe to our Newsletter<br></br> & Never miss latest updates</h3>
-              {status === 'sending' && <Alert>Sending...</Alert>}
-              {status === 'error' && <Alert variant="danger">{message}</Alert>}
-              {status === 'success' && <Alert variant="success">{message}</Alert>}
-            </Col> */}
-            <Col md={6} xl={7}>
-              {/* <form onSubmit={handleSubmit}>
-                <div className="new-email-bx">
-                  <input value={email} type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" />
-                  <button type="submit">Submit</button>
-                </div>
-              </form> */}
-            </Col>
-          </Row>
-        </div>
-      </Col>
-  )
+          }
+        </Row>
+      </div>
+    </Col>
+  );
 }
